@@ -1,0 +1,17 @@
+body {
+  background: #e2ebf3; }
+  body .likes {
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    background-color: #2194E0;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 5px #187DBC;
+    outline: 0; }
+  body .likes:active {
+    box-shadow: 0 0;
+    margin-top: 15px; }
+
+/*# sourceMappingURL=main.css.map */

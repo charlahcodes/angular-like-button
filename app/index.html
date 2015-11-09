@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+  <title>Hello, World</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div ng-controller="ButtonController">
+
+<button class = "likes" ng-click="likeButton()">
+  {{count}} {{likes}}
+</button>
+
+
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+<!-- <button ng-click="count = count + 1" ng-init="count=0">
+  {{count}} likes
+</button> -->
